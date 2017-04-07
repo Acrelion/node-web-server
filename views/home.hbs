@@ -4,15 +4,16 @@
 <head>
     <meta charset="utf-8">
     <title>Kitten Home</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
 </head>
 
 <body>
-    <h1>{{pageTitle}}</h1>
-    <p>{{welcomeMessage}}</p>
+    {{> header}}
+    <p>{{screamer welcomeMessage}}</p>
 
-    <footer>
-        <p>Copyright {{currentYear}}</p>
-    </footer>
+    {{> footer}}
 </body>
+
 
 </html>
