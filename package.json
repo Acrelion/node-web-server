@@ -1,23 +1,24 @@
 {
-  "name": "node-web-server",
-  "version": "1.0.0",
-  "description": "Node course, part of express.",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Acrelion/node-web-server.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Acrelion/node-web-server/issues"
-  },
-  "homepage": "https://github.com/Acrelion/node-web-server#readme",
-  "dependencies": {
-    "express": "^4.15.0",
-    "hbs": "^4.0.1"
-  }
+    "name": "node-web-server",
+    "version": "1.0.0",
+    "description": "Node course, part of express.",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Acrelion/node-web-server.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Acrelion/node-web-server/issues"
+    },
+    "homepage": "https://github.com/Acrelion/node-web-server#readme",
+    "dependencies": {
+        "express": "^4.15.0",
+        "hbs": "^4.0.1"
+    }
 }
